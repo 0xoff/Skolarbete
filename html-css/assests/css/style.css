@@ -1,0 +1,718 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;  
+}
+
+header {
+    background-color: #F0EFE9;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.containerhead {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+/* Logo Area */
+.logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.logo-image {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.logo-text .logo-text-part1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo-text .logo-text-part2 {
+    font-size: 18px;
+}
+
+/* Top Navigation */
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    padding-bottom: 5px;
+    background-color: #F0EFE9;
+}
+
+.contact-details {
+    display: flex;
+    gap: 30px; 
+    flex: 2; 
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(23, 22, 22); 
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    flex: 1; 
+}
+
+.social-icons a {
+    color: rgb(22, 21, 21);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #bbb;
+}
+
+/* Main */
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+}
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.main-nav a:hover {
+    background-color: #4a4c4c;
+}
+.menu-links {
+    display: flex;
+    gap: 15px; 
+}
+
+.log-button {
+    padding: 5px 15px;
+    background-color: #F9D783;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.log-button:hover {
+    background-color: #E5C670; 
+}
+
+
+
+
+
+/* Body*/
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.companylogos{
+    padding-top: 50px;
+}
+
+.section1{
+    background-color: #f0efe9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+h1{
+    font-size: 64px;  
+    text-align: left;
+}
+h2{
+    font-size: 32px;  
+}
+h5{
+    font-size: 18px;  
+}
+h6{
+    font-size: 12px;  
+    color: #F94D1C;
+}
+.content1{
+    display: table-row;
+    text-align:left;
+    height: 500px;
+    width: 500px;
+    margin-left: 250px;
+    margin-top: 100px;
+    
+}
+
+.manlaptop{
+   position: absolute; 
+   margin-left: 50%;
+   margin-top: 4.9%;
+}
+
+.button1, .button3{
+    background-color:#f3cc8d;  
+    color:black;             
+    padding: 20px 30px;         
+    border: none;              
+    border-radius: 12px;         
+    font-size: 16px;            
+    cursor: pointer;            
+    transition: background-color 0.3s ease;  
+}
+
+.button2, .button5{
+    background-color:#e1deda;  
+    color:black;             
+    padding: 20px 30px;         
+    border-radius: 12px;         
+    font-size: 16px;            
+    cursor: pointer;            
+    transition: background-color 0.3s ease;  
+}
+
+.button4{
+    background-color:#000000;  
+    color:rgb(255, 255, 255);             
+    padding: 10px 20px;         
+    border-radius: 10px;         
+    font-size: 16px;            
+    cursor: pointer;            
+    transition: background-color 0.3s ease;  
+}
+
+.section2 {
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;          
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center; 
+}
+#companylogos{
+    width: 1000px;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 100px;
+    
+
+}
+.boxes1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+.boxes2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.cardbusiness, .cardstartup, .cardfinance, .cardrisk{
+    background-color: #ffffff;
+    padding-top: 20px;
+}
+.cardfeatures{
+    background-color: #ffffff;
+    margin-right: 200px;
+}
+.aboutsection {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    position: relative;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.founder {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-right: 100px;
+    position: absolute;
+    bottom: 0;
+}
+
+.about {
+    text-align: center;
+    flex: 2;  
+    padding-left: 50px;
+    height: 500px;
+}
+
+
+
+.section3 {
+    background-color: #F0EFE9;
+    height: 500px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.services h6 {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+.services h2 {
+    font-size: 24px;
+    color: #222;
+    margin: 0;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0 5%;
+}
+
+.column {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.button5 {
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button5:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 0;
+    }
+}
+.section4a{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 100vh; 
+    padding: 20px; 
+}
+.whyus{
+    background-color: rgb(255, 255, 255);
+    display: table-row;
+    justify-content: left; 
+    align-items: left;     
+    flex: 1; 
+    margin-right: 300px;
+    margin-left: 100px;
+}
+.line{
+    background-color: #ffffff;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    
+}
+.twoworkers{
+    display: inline-block;
+    
+}
+.section4b {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 100%;
+    padding: 20px 0; 
+}
+
+.projects {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 80%; 
+}
+
+.projects .info {
+    width: 100%;
+    text-align: left; 
+    margin-bottom: 20px; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
+.projects > button {
+    align-self: center; 
+    margin-top: 20px; 
+}
+
+
+
+.boxes-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.box1, .box2 {
+    width: 45%; 
+    margin-bottom: 20px; 
+}
+.read-more-container {
+    text-align: right; 
+}
+
+
+
+.section5 {
+    padding: 50px; 
+    background-color: #F0D082; 
+    width: 100%; 
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px; 
+}
+
+.team-members {
+    position: relative; 
+    display: flex;      
+    justify-content: center; 
+    align-items: center;     
+}
+
+.members-container {
+    display: flex;      
+    justify-content: space-between; 
+    width: 100%;       
+}
+
+.slider {
+    position: absolute; 
+    bottom: 0;          
+    left: 50%;         
+    transform: translateX(-50%); 
+}
+
+
+.member1, .member2, .member3, .member4 {
+    flex-shrink: 0; 
+}
+.testimonial {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    background-color: #fff;
+}
+
+.clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+.testimonial-rows {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
+}
+
+.ratings1, .ratings2, .ratings3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;  
+}
+
+button {
+    align-self: center;
+    margin-top: 20px;
+}
+
+
+
+.ratings1 img, .ratings2 img, .ratings3 img {
+    max-width: 100%;    
+    height: auto;       
+}
+
+.ratings-container {
+    display: flex;      
+    justify-content: space-between; 
+    width: 100%;        
+    margin-bottom: 20px; 
+}
+
+
+.section6 {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.news {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.news-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.news-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-items {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.news1, .news2, .news3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin: 0 10px;
+}
+
+.news img[src*="slider.png"] {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    height: auto;
+}
+
+.news h5, .news p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+.section7 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+    background-color: #f0efe9; 
+    padding: 50px;  
+    text-align: left;  
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+.section7 h2 {
+    flex: 1; 
+    margin-right: 30px; 
+}
+
+.subscription {
+    display: flex;
+    align-items: center;
+}
+
+.section7 input, .section7 button {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    height: 40px;
+    font-size: 16px;
+}
+
+.section7 input {
+    flex-grow: 2;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.section7 button {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    background-color: #333;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.section7 button:hover {
+    background-color: #555;
+}
+
+
+
+.footer-section8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;  
+    padding: 20px 0;
+    background-color: #0E1021;
+    color: #cbc6c6;
+    width: 100%;
+}
+
+.footer-logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+
+
+/* Footer*/
+
+footer {
+    text-align: center;
+    padding: 20px 0; 
+    background-color: #0E1021; 
+    color:#cbc6c6 ;
+    width: 100%;
+}
+
+footer a {
+    margin: 0 10px; 
+}
